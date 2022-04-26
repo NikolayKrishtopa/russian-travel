@@ -1,378 +1,46 @@
 @import url(../vendor/Inter-3.19/inter.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__container/cover__container.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_state/header__lang-link_state_chosen.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__article/intro__article.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__photo/lead__photo.css);
+@import url(../blocks/lead/__picture-title/lead__picture-title.css);
+@import url(../blocks/lead/__route/lead__route.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__url-title/place__url-title.css);
+@import url(../blocks/place/__url/place__url.css);
+@import url(../blocks/place/__website/place__website.css);
+@import url(../blocks/root/root.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/_place/section-title_place_places.css);
 
-.root {
-  margin: 0;
-  padding: 0;
-}
-.page {
-  margin: 0 auto;
-  background-color: #2A2C2F;
-  padding: 0 48px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header {
-  width: 100%;
-  margin: 0;
-  padding: 28px 0 56px 0;
-  max-width: 1600px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__logo {
-  padding: 4px 0 0 0;
-
-}
-
-
-.header__lang-link {
-  margin: 0 16px 0 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0em;
-  text-align: right;
-  color: #FFF;
-  text-decoration: none;
-
-}
-
-.header__lang-link:last-child {
-  margin: 0;
-}
-
-.header__lang-link_state_chosen {
-  text-decoration: underline;
-}
-
-.content {
-  max-width: 1184px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.lead {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-.lead__title {
-  text-align: center;
-  color: #FFF;
-  margin: 0;
-  padding: 0;
-  max-width: 720px;
-  font-family: Inter;
-  font-size: 96px;
-  font-weight: 900;
-  line-height: 1.042;
-}
-.lead__subtitle {
-  text-align: center;
-  color: #FFF;
-  margin: 32px 0 64px 0;
-  padding: 0;
-  max-width: 640px;
-  font-family: Inter;
-  font-size: 30px;
-  font-weight: 400;
-  line-height: 1.2;
-}
-.lead__image {
-  margin: 0;
-  padding: 0;
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-}
-.lead__photo {
-  width: 100%;
-}
-.lead__route {
-  position: absolute;
-  left: 2.36%;
-  width: 95.2%;
-  top: 14.67%;
-  z-index: 2;
-}
-.lead__picture-title {
-  margin: 8px 0 0 0;
-  padding: 0;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 10px;
-  font-weight: 400;
-  line-height: 1.4;
-  letter-spacing: 1.5px;
-}
-
-.intro {
-  width: 100%;
+.places {
   max-width: 984px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.intro__article {
-  margin: 0;
-  padding: 0 30% 0 0;
-  max-width: 690px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-.intro__title {
-  margin: 92px 0 40px 0;
-  padding: 0;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 54px;
-  font-weight: 900;
-  line-height: 1.074;
-}
-.intro__text {
-  margin: 0;
-  padding: 0;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.625;
-}
-
-.intro__list {
-  margin: 33px 0 92px 0;
-  padding: 0;
-  color: #FFF;
-  font-family: Inter;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.5;
-}
-
-.photo-grid {
   width: 100%;
-  display: grid;
-  grid-gap: 16px;
-  grid-template-columns: repeat(4, minmax(220px, 284px));
-  grid-template-rows: auto;
-}
-
-.photo-grid__item {
-  width: 100%;
-}
-
-.place {
-  margin: 0;
-  padding:  0 0 80px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  max-width: 984px;
-}
-
-.place:last-child {
-  padding: 0 0 92px 0;
-}
-
-.place:first-child {
-  padding: 92px 0 0 0;
-}
-.section-title {
-  max-width: 560px;
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 72px;
-  font-weight: 900;
-  line-height: 1.055;
-  text-align: center;
-  color: #FFF;
-}
-
-.section-title_place_places {
-  max-width: 460px;
-  min-width: 340px;
-  margin-bottom: 48px;
-  text-align: left;
-}
-
-.place__website {
-  width: 100%;
-  margin: 0 0 48px 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  align-self: flex-end;
-  max-width: 484px;
-}
-
-.place__url-title {
-  margin: 0 0 12px 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1;
-  letter-spacing: 2px;
-  text-align: left;
-  color:#AAA;
-}
-
-.place__url {
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.22;
-  text-align: left;
-  color:#FFF;
-  text-decoration: underline;
-}
-
-.place__image {
-  margin: 0;
-  padding: 0;
-  max-width: 460px;
-}
-
-.place__paragraphs {
-  margin: 0;
-  padding: 0;
-  max-width: 484px;
-  min-width: 200px;
-  display: flex;
-  flex-direction: column;
-  }
-
-.place__paragraph {
-  margin: 0 0 26px 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 1.61;
-  text-align: left;
-  color: #FFF;
-}
-
-.place__paragraph:last-child {
-  margin: 0;
-}
-
-.cover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  /* max-width: 1184px; */
-  box-sizing: border-box;
-}
-
-.cover__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.cover__background {
-  width: 100%;
-}
-
-.cover__overlay {
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  background-color: #2A2C2F;
-  opacity: 30%;
-  z-index: 2;
-  transition: opacity .5s ease;
-}
-
-.cover__overlay:hover {
-  opacity: .7;
-}
-
-.cover__container {
-  z-index: 2;
-  min-height: 34%;
-  position: absolute;
-  top: 33%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.section-subtitle {
-  margin: 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: center;
-  color: #FFF;
-  max-width: 360px;
-}
-
-.footer {
-  margin: 92px 0 24px 0;
-  padding: 0;
-  width: 100%;
-  max-width: 1600px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.footer__links {
-  margin: 0;
-  padding: 0;
-  display: flex;
-
-}
-
-.footer__link {
-  text-decoration: none;
-  margin: 0 18px 0 0;
-  padding: 0;
-  font-family: Inter;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.125;
-  color: #FFF;
-}
-
-.footer__link:last-child {
-  margin: 0;
-}
-
-.footer__copyright {
-  font-family: Inter;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.143;
-  color: #FFF;
 }

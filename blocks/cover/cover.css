@@ -1,0 +1,15 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1030px) {
+  .cover {
+    margin: 0 calc((100% - 100vw)/2);
+  }
+}
