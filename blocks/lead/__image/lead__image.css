@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   position: relative;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: start;
+}
+
+@media (max-width: 1000px) {
+  .lead__image {
+    margin: 0 calc((100% - 100vw)/2);
+  }
 }

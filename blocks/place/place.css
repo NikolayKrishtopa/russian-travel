@@ -33,6 +33,6 @@
 @media (max-width: 620px) {
   .place {
     row-gap: 32px;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
   }
 }
