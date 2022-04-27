@@ -7,3 +7,15 @@
   align-items: center;
   justify-content: space-between;
 }
+
+@media (max-width: 1030px) {
+  .header {
+    padding-bottom: 48px;
+  }
+}
+
+@media (max-width: 528px) {
+  .header {
+    padding-top: 16px;
+  }
+}

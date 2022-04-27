@@ -3,3 +3,10 @@
   padding: 0;
   width: 100%;
 }
+
+@media (max-width: 620px) {
+  .place__image {
+    width: calc(100% + 32px);
+    justify-self: center;
+  }
+}

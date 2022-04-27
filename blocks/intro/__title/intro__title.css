@@ -8,8 +8,21 @@
   line-height: 1.074;
 }
 
+@media(max-width: 1023px) {
+  .intro__title {
+    margin-top: 88px;
+  }
+}
+
 @media(max-width: 705px) {
   .intro__title {
     font-size: 32px;
-    line-height: 1.094;}
+    line-height: 1.094;
+  }
+}
+
+@media (max-width: 528px) {
+  .intro__title {
+    margin-top: 64px;
+  }
 }

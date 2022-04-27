@@ -8,4 +8,10 @@
   text-align: left;
   color:#FFF;
   text-decoration: underline;
+  cursor: url(../../../images/Pointer.png) 0 0, auto;
+  transition: opacity .3s ease-in-out;
+}
+
+.place__url:hover {
+  opacity: .8;
 }

@@ -2,4 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: url(../../../images/Pointer.png) 0 0, auto;
+  transition: opacity .5s ease;
+}
+
+.cover__link:hover {
+  opacity: .7;
 }
