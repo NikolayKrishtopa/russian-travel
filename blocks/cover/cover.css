@@ -1,4 +1,10 @@
 .cover {
+  width: 100%;
+  min-height: 62.5%;
+  background-image: url(../../images/baikal-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
