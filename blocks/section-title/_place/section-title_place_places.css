@@ -10,3 +10,10 @@
     line-height: 1.095;
   }
 }
+
+@media (max-width: 528px) {
+  .section-title_place_places {
+    font-size: 32px;
+    line-height: 1.0938;
+  }
+}
