@@ -1,6 +1,6 @@
 .cover {
   width: 100%;
-  min-height: 62.5%;
+  min-height: 100%;
   background-image: url(../../images/baikal-background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -12,6 +12,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.cover::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 100%;
+  padding-top: 62.5%;
+  box-sizing: border-box;
+  background-color: #2A2C2F;
+  opacity: .3;
 }
 
 @media (max-width: 1030px) {
