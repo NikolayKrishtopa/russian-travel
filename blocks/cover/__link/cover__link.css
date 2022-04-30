@@ -10,7 +10,6 @@
   align-items: center;
   cursor: url(../../../images/Pointer.png) 0 0, auto;
   text-decoration: none;
-  position: relative;
   box-sizing: border-box;
   min-height: 740px;
 }
