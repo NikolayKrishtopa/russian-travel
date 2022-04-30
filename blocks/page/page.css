@@ -9,7 +9,7 @@
   min-width: 320px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .page {
     padding: 0 24px;
   }
@@ -20,6 +20,3 @@
     padding: 0 16px;
   }
 }
-
-/* *,*::before,*::after {outline: 1px solid red
-} */

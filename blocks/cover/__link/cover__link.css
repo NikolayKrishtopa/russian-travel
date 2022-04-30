@@ -11,8 +11,8 @@
   cursor: url(../../../images/Pointer.png) 0 0, auto;
   text-decoration: none;
   position: relative;
-  width: 100%;
   box-sizing: border-box;
+  min-height: 740px;
 }
 
 .cover__link::before{
@@ -26,4 +26,38 @@
   opacity: .3;
 }
 
+@media (max-width: 1025px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
 
+@media (max-width: 900px) {
+  .cover__link {
+    min-height: 562px;
+  }
+}
+
+@media (max-width: 769px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cover__link {
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 528px) {
+  .cover__link {
+    min-height: 312px;
+  }
+}
+
+@media (max-width: 420px) {
+  .cover__link {
+    min-height: 200px;
+  }
+}
