@@ -4,6 +4,6 @@
 
 Страница доступна по [ссылке](https://nikolaykrishtopa.github.io/russian-travel/index.html)
 
-Для связи с разработчиком перейдите по [ссылке](nickey87@yandex.ru)
+Для связи с разработчиком перейдите пожалуйста по [ссылке](mailto:nikolay.krishtopa@gmail.com)
 
 Спасибо за внимание и хорошего дня!
